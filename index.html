@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Workshop Registration</title>
+            <style type="text/css">
+                </style>
+    </head>
+        <body>
+            <form id="registrationForm">
+                <h1>Workshop Registration</h1>
+                <div id="error-message">Please fill in your name and email</div>
+
+                <label for="txtname">Name <span class="titikmerah">*</span></label>
+                <input type="text" name="txtname" id="txtname"/>
+                <br />
+
+                <label for="txtemail">Email <span class="titikmerah">*</span></label>
+                <input type="email" name="txtemail" id="txtemail" />
+                <br />
+
+                <label for="txtaddress">Address</label>
+                <textarea id="txtaddress" name="txtaddress" rows="4" cols="50"></textarea>
+                <br />
+
+                <label for="ddlage">Age</label>
+                <select name="ddlage" id="ddlage">
+                    <option value="">- Select Age -</option>
+                    <option value="under 17">under 17</option>
+                    <option value="17-25">17-25</option>
+                    <option value="26-35">26-35</option>
+                    <option value="above 35">above 35</option>
+                </select>
+                <br />
+                <br />
+            <input type="reset" class="button" name="btnreset" id="btnreset" value="Reset" />
+            <input type="submit" class="button" name="btnsubmit" id="btnsubmit" value="Submit Form" />
+        </form>
+    </body>
+</html>
+     
